@@ -1,0 +1,230 @@
+.title {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+.title  h1 {
+    font-size: 50px;
+    font-style: italic;
+    display: flex;
+    color: #160101;
+    font-weight: bold;
+    text-shadow: 2px 2px;
+}
+
+
+.title p {
+    font-size: 22px;
+    font-style: oblique;
+    text-align:justify;
+    display: flex;
+    width: 300px;
+}
+
+
+.name  img {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 999px;
+    width: 300px;
+
+}
+
+.image-profile img {
+    width: 200px;
+    height: 150px;
+    margin: 16px;
+    border-radius: 5px;
+}
+
+.imagen img {
+    width: 100px; 
+    margin: 8px;
+    border-radius: 7px;
+    transform: translate(0, 70px); 
+}
+
+.contents {
+    padding: 16px;
+    margin: 20px;
+    border: 1px solid rgb(9, 228, 228);
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: aquamarine;
+}
+
+
+.contents h2 {
+    font-size: 28px;
+    font-style:oblique;
+    color:rgb(24, 19, 19);
+    text-shadow: 2px 1px;
+    
+
+}
+
+.contents p {
+    font-size: 18px;
+    font-style:oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: hsl(333, 80%, 67%);
+    font-style: oblique;
+}
+
+.contents-two {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 8px;
+    margin: 10px;
+    border: 1px ;
+    border-radius: 8px;
+    width: 100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: rgba(84, 212, 212, 0.932);
+}
+
+.contents-two h2 {
+    font-size: 25px;
+    font-style: oblique;
+    transform: translate(0, 30px); 
+    background-color: rgba(84, 212, 212, 0.932);
+    margin: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+    text-shadow: 2px 1px;
+}
+
+.contents-parrafo p {
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: oblique;
+    transform: translate(0, 100px); 
+    flex-direction: column;
+    margin: 16px;
+    padding: 10px;
+    height: 80px; 
+    border-radius: 10px;
+    background-color:hsl(333, 80%, 67%) ;
+
+}
+
+.skills {
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    font-style: oblique;
+    margin: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    flex-direction:column;
+    background-color: hsl(333, 80%, 67%);
+    
+}
+.skills ul {
+    font-size: 20px;
+    
+}
+
+.image-family img {
+    display: flex;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 7px;
+    width: 200px;
+    height: 170px;
+    transform: translate(0, 50px); 
+}
+
+
+.hobby img {
+    width: 35px;
+    display: flex;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 999px;
+    width: 300px;
+}
+
+.contents-three {
+    margin: 20px;
+    padding: 18px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(12, 214, 170);
+}
+
+.contents-three h2 {
+    font-size: 25px;
+    font-style:italic;
+    text-shadow: 2px 1px;
+}
+
+.contents-three p {
+    font-size: larger;
+    background-color: hsl(333, 80%, 67%);;
+    text-align:justify;
+    font-style: oblique;
+    color:rgba(0, 0, 0, 0.973)
+    
+}
+
+#cabezara-1 {
+    display: flex;
+    justify-content:center;
+    background-color: hsl(300, 24%, 96%);
+}
+
+#cabezara-2 {
+    display: flex;  
+    justify-content: center;
+    background-color:hsl(300, 26%, 72%);
+}
+
+#cabezara-3 {
+    display: flex;  
+    justify-content: center;
+    background-color: hsl(300, 24%, 96%);
+    
+}
+#cabezara-4 {
+    display: flex;  
+    justify-content: center;
+    background-color: hsl(300, 26%, 72%);
+    padding: 12px;
+
+}
+
+.body {
+    background-color: aquamarine;
+    
+}
+
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+    .body {
+        background-color: rgb(43, 226, 226);
+    }
+}
+@media screen and (max-width: 640px) {
+    .body {
+    background: rgb(0, 238, 255);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .body {
+    background: rgb(134, 38, 118);
+    }
+}
+
